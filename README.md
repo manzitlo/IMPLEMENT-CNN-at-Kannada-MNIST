@@ -41,4 +41,5 @@ To build CNN model, we have to import DL package:
     from tensorflow.keras.models import Sequential
     from tensorflow.keras.layers import Flatten,Conv2D,MaxPooling2D,Dense,Dropout
 
-After 
+The following screenshot shows the layer strcture and total params (**232,650**)
+<img src=
