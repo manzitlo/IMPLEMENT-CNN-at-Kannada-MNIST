@@ -45,7 +45,7 @@ The following screenshot shows the layer strcture and total params (**232,650**)
 
 <img src="https://github.com/manzitlo/IMPLEMENT-CNN-at-Kannada-MNIST/blob/main/images/Layer%20structure.png" width="350px" />
 
-Setting epoch=30, running 30 times. The result of accuracy is **Train Accuracy : 0.992267; Test Accuracy : 0.992667**
+Setting epoch=30 (running 30 times). The result of accuracy is **Train Accuracy : 0.992267; Test Accuracy : 0.992667**
 
 Like the following picture shows:
 
