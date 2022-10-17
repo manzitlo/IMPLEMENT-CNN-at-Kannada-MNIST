@@ -1,4 +1,4 @@
-# implement-CNN-at-Kannada-MNIST
+# IMPLEMENT CNN at Kannada MNIST
 
 Convolutional neural network -- CNN is good at picture processing. It's inspired by the human visual nervous system.
 
