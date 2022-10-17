@@ -8,5 +8,5 @@ CNN has two major characteristics:
 
 Because convolutional neural networks have been applied to MNIST handwritten digit datasets for various experiments, I use the Kannada hand-written dataset . Kannada is the official administrative language of Karnataka, India, and is spoken by nearly 60 million people worldwide. Different symbols are used to represent the numbers 0-9 in the language, which are different from the modern Arabic numerals popular in many parts of the world today. 
 ![img](https://pic1.zhimg.com/v2-2ea3b454dacb13f077d497daa54fb550_720w.jpg?source=172ae18b)
-Like the above picture shows, "1" in Kannada hand writting more seems like "0", "3" and "7" in Kannada is more like "2". Unlike the MNIST handwritten digit dataset, Kannada's replacement of MNIST adds a new challenge to the CNN experiment.<br />
+<br> Like the above picture shows, "1" in Kannada hand writting more seems like "0", "3" and "7" in Kannada is more like "2". Unlike the MNIST handwritten digit dataset, Kannada's replacement of MNIST adds a new challenge to the CNN experiment.<br />
 
