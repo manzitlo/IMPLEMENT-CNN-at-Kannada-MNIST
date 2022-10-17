@@ -20,13 +20,13 @@ The main problems with having so many characteristics are:
 2. It is difficult to find a cost-effective and efficient solution
 
 
-Regarding the application of CNN in Kannada handwritten data processing, I will achieve two goals:
+Regarding the application of CNN in Kannada handwritten data processing, I have achieved two goals:
 
-1. Use dimensionality reduction tools to reduce and visualize hyperdimensional datasets. Getting down to two or three features helps us visualize the data, which is an important part of data analysis; The differences between PCA and t-SNE were also compared (in folder 1)
+**1. Use dimensionality reduction tools to reduce and visualize hyperdimensional datasets. Getting down to two or three features helps us visualize the data, which is an important part of data analysis; The differences between PCA and t-SNE were also compared (in folder 1)**
 
 <img src="https://github.com/manzitlo/IMPLEMENT-CNN-at-Kannada-MNIST/blob/main/Visualization%20by%20using%20PCA.png" width="400px"/>   <img src="https://github.com/manzitlo/IMPLEMENT-CNN-at-Kannada-MNIST/blob/main/using%20t-SNE%20to%20visualize.png" width="350px"/>
 
-**2. Establish the CNN model (including dropout), analyze the impact of epochs on accuracy, and ensure that the accuracy is more than 98% (in folder 2)**
+**2. Establish the CNN model (including dropout), analyze the impact of epochs on accuracy, and ensure that the accuracy is more than 98%**
 
 *Using '/train.csv', '/test.csv', and '/Dig-MNIST.csv' to read the data. Checking the shape of train and test, train:(60000, 785); test: (5000, 785)*
 
