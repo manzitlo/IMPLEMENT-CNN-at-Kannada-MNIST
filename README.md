@@ -24,7 +24,7 @@ Regarding the application of CNN in Kannada handwritten data processing, I have 
 
 **1. Use dimensionality reduction tools to reduce and visualize hyperdimensional datasets. Getting down to two or three features helps us visualize the data, which is an important part of data analysis; The differences between PCA and t-SNE were also compared (in folder 1)**
 
-<img src="github.com/manzitlo/IMPLEMENT-CNN-at-Kannada-MNIST/blob/main/images/Visualization%20by%20using%20PCA.png" width="400px"/>   <img src="https://github.com/manzitlo/IMPLEMENT-CNN-at-Kannada-MNIST/blob/main/images/using%20t-SNE%20to%20visualize.png" width="350px"/>
+<img src="https://github.com/manzitlo/IMPLEMENT-CNN-at-Kannada-MNIST/blob/main/images/Visualization%20by%20using%20PCA.png" width="400px"/>   <img src="https://github.com/manzitlo/IMPLEMENT-CNN-at-Kannada-MNIST/blob/main/images/using%20t-SNE%20to%20visualize.png" width="350px"/>
 
 **2. Establish the CNN model (including dropout), analyze the impact of epochs on accuracy, and ensure that the accuracy is more than 98%**
 
