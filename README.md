@@ -49,7 +49,7 @@ Setting epoch=30, running 30 times. The result of accuracy is **  Train Accuracy
 
 Like the following picture shows:
 
-
+<img src="https://github.com/manzitlo/IMPLEMENT-CNN-at-Kannada-MNIST/blob/main/The%20result%20of%20accuracy%20and%20loss.png" width="400px" />
 
 
 **CNN is better for image processing**
