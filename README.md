@@ -16,8 +16,8 @@ Like the above picture shows, "1" in Kannada hand writting more seems like "0", 
 Many machine learning problems (especially CNNS applied to image processing) consist of hundreds or thousands of features. 
 The main problems with having so many characteristics are:
 
-1. It slows down the training process
-2. It is difficult to find a cost-effective and efficient solution
+* It slows down the training process
+* It is difficult to find a cost-effective and efficient solution
 
 
 Regarding the application of CNN in Kannada handwritten data processing, I have achieved two goals:
