@@ -24,4 +24,10 @@ Regarding the application of CNN in Kannada handwritten data processing, I will 
 
 1. Use dimensionality reduction tools to reduce and visualize hyperdimensional datasets. Getting down to two or three features helps us visualize the data, which is an important part of data analysis; The differences between PCA and t-SNE were also compared (in folder 1)
 
-2. Establish the CNN model (including dropout), analyze the impact of epochs on accuracy, and ensure that the accuracy is more than 98% (in folder 2)
+**2. Establish the CNN model (including dropout), analyze the impact of epochs on accuracy, and ensure that the accuracy is more than 98% (in folder 2)**
+
+*Using '/train.csv', '/test.csv', and '/Dig-MNIST.csv' to read the data. Checking the shape of train and test, train:(60000, 785); test: (5000, 785)*
+
+    print(train.shape)
+    print(test.shape)
+
