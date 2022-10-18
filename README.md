@@ -31,6 +31,9 @@ Through comparative analysis, I learned that the visualization produced by PCA d
 
 **t-SNE or T-distributed random neighborhood embedding reduces high-dimensional datasets to low-dimensional graphs that retain a large amount of original information. It does this by giving each data point a location on a two-dimensional or three-dimensional map. This technique looks for clusters in the data to ensure that the embedding preserves meaning in the data. t-SNE reduces the dimensionality while trying to keep similar instances close and different instances separate.**
 
+We can also implement 3D scatter plot by using plotly like the following screenshot shows:
+
+
 
 ## **2. Establish the CNN model (including dropout), analyze the impact of epochs on accuracy, and ensure that the accuracy is more than 98%**
 
@@ -55,7 +58,29 @@ The following screenshot shows the layer strcture and total params (**232,650**)
 
 Like the following picture shows:
 
+<div align=center>
 <img src="https://github.com/manzitlo/IMPLEMENT-CNN-at-Kannada-MNIST/blob/main/images/The%20result%20of%20accuracy%20and%20loss.png" width="400px" />
+</div>
 
+**Yes, CNN is better for image processing**
+Through the use of CNN model for Kannada MNIST data sets at this project,
 
-**CNN is better for image processing**
+I fully realized the advantages of CNN:
+
+- The input image is in good agreement with the topology structure of the network;
+
+- Excellent performance despite using fewer parameters;
+
+- It avoids explicit feature extraction and learns implicitly from the training data;
+
+- Feature extraction and pattern classification are carried out at the same time and generated in training at the same time, so the network can learn in parallel;
+
+- Weight sharing reduces the training parameters of the network, reduces the complexity of the network structure, and has stronger applicability;
+
+- There is no need to manually select features, and the weight is trained well to obtain features, and the classification effect is good;
+
+- It can be directly input into the network, avoiding the complexity of data reconstruction in the process of feature extraction and classification.
+
+<div align=center>
+<img src="https://github.com/manzitlo/IMPLEMENT-CNN-at-Kannada-MNIST/blob/main/images/CNN.png" width="800px"/>
+</div>
