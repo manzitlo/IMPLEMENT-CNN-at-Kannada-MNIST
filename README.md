@@ -25,13 +25,59 @@ Regarding the application of CNN in Kannada handwritten data processing, I have 
 
 ## **1. Use dimensionality reduction tools to reduce and visualize hyperdimensional datasets. Getting down to two or three features helps us visualize the data, which is an important part of data analysis; The differences between PCA and t-SNE were also compared (in folder 1)**
 
-<img src="https://github.com/manzitlo/IMPLEMENT-CNN-at-Kannada-MNIST/blob/main/images/Visualization%20by%20using%20PCA.png" width="400px"/>   <img src="https://github.com/manzitlo/IMPLEMENT-CNN-at-Kannada-MNIST/blob/main/images/using%20t-SNE%20to%20visualize.png" width="350px"/>
+
+<img src="https://github.com/manzitlo/IMPLEMENT-CNN-at-Kannada-MNIST/blob/main/images/Visualization%20by%20using%20PCA.png" width="500px"/>   <img src="https://github.com/manzitlo/IMPLEMENT-CNN-at-Kannada-MNIST/blob/main/images/using%20t-SNE%20to%20visualize.png" width="450px"/>
 
 Through comparative analysis, I learned that the visualization produced by PCA does not distinguish all numbers well. This is because PCA is a linear projection, which means that it cannot capture nonlinear dependencies. 
 
 **t-SNE or T-distributed random neighborhood embedding reduces high-dimensional datasets to low-dimensional graphs that retain a large amount of original information. It does this by giving each data point a location on a two-dimensional or three-dimensional map. This technique looks for clusters in the data to ensure that the embedding preserves meaning in the data. t-SNE reduces the dimensionality while trying to keep similar instances close and different instances separate.**
 
-We can also implement 3D scatter plot by using plotly like the following screenshot shows:
+Therefore,  we can see that t-SNE does a better job than PCA in visualizing high-dimensional datasets.
+
+We can also implement 3D scatter plot by using plotly :
+
+<div align=center>
+<img src="https://github.com/manzitlo/IMPLEMENT-CNN-at-Kannada-MNIST/blob/main/images/Visualizing%20Kannada%20MNIST%20by%20using%20t-SNE%20in%203D%20with%20plotly.png" width="450px"/>
+</div>
+
+With using the following code:
+
+* Make use we have imported basic package about plotly
+
+
+        import plotly.graph_objects as go
+
+
+* And setting 
+
+
+        pca_tsne2 = TSNE(random_state = 42, n_components=3, verbose=0, perplexity=40, n_iter=300).fit_transform(pca_result_50)
+    
+    
+* The main coding for fig.show 3D t-SNE high-dimensional reduction:  
+   
+        x=pca_tsne2[:, 0]
+        y=pca_tsne2[:, 1]
+        z=pca_tsne2[:, 2]
+
+        fig = go.Figure(data=[go.Scatter3d(
+            x=x,
+            y=y,
+            z=z,
+            mode='markers',
+            marker=dict(
+                size=12,
+                color=x,                # set color to an array/list of desired values
+                colorscale='Spectral',   # choose a colorscale
+                opacity=0.8
+        )
+        )])
+
+* OUTPUT figure
+
+        fig.update_layout(margin=dict(l=0, r=0, b=0, t=0))
+        fig.show()
+
 
 
 
